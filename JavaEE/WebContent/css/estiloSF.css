@@ -1,0 +1,100 @@
+body
+{
+	background-color: #FFF9DB;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+h3
+{
+	color: white;
+}
+img
+{
+	border-radius:8px;
+}
+.sctnhdr
+{
+	position: relative;
+	width: 100%;
+}
+.nvhdr
+{
+	position: absolute;
+	right:0px;
+	bottom: 0px;
+}
+.sctnGallery
+{
+	position: relative;
+	width: 100%;
+}
+
+.ftrGallery
+{
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	width: 100%;
+	padding: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-radius:8px;
+	background-color: rgba(0,0,0,0.48);
+}
+.btnSArtcl
+{
+	position: absolute;
+	right:0;
+	margin-right: 2px;
+	border-radius: 4px;
+	background-color: rgb(133,26,28);
+	border-color: #851A1C;
+	border-bottom-width: 4px;
+	border-bottom-color: rgba(0,0,0,0.3);
+	color:white;
+}
+.description
+{
+	color:white;
+}
+.atclsd
+{
+	float:right;
+	background-color: #706B64;
+	border-radius:10px;
+	max-width: 30%;
+	padding: 6px;
+	text-align: justify;
+}
+.atcllft
+{
+	float:left;
+	max-width: 67%;
+	text-align: justify;
+}
+.sctnftr
+{
+	position: relative;
+	width: 100%;
+}
+.ftrlft
+{
+	position:absolute;
+	left: 0;
+	max-width: 33%;
+}
+.ftrcntr
+{
+	position:absolute;
+	left: 33%;
+	max-width: 33%;
+}
+.ftrrght
+{
+	position: absolute;
+	right: 33%;
+	max-width: 33%;
+}

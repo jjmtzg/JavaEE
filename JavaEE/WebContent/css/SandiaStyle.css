@@ -1,0 +1,34 @@
+/* CSS Document */
+body
+{
+	background-color: #212121;
+}
+.color-ppl
+{
+	background-color: #D30000;
+}
+.cntnr-scd
+{
+	background-color: #FF001F;
+	border-radius: 7px;
+}
+.micont
+{
+	background-color: #303030;
+}
+.color-btn-pls
+{
+	background-color: #92FFD3;
+	color:#306E50;
+}
+.col-comment
+{
+	background-color: #424242;
+	padding-bottom:8px;
+	border-radius: 5px;
+	color:white;
+}
+.perfilimage
+{
+	border-radius: 100px;
+}

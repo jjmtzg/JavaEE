@@ -1,0 +1,52 @@
+h1{
+	color:  #A0C3F8;
+	font-family: Verdana;
+}
+h2
+{
+	color:#A0C3F8;
+	font-family: Verdana;
+	font-size: 16px;
+}
+body
+{
+	background-color: #585445;
+	color: white;
+}
+.cabecera
+{
+	position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid #4CAF50;
+}
+.links
+{
+	color: #CF5246;
+}
+.caract
+{
+	color:#FFF86B;
+}
+.referencias
+{
+	border: #FF4E4E 3px solid;
+	margin: 3px;
+}
+#myDIV {
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {border-radius: 50px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {border-radius: 50px;}
+}
