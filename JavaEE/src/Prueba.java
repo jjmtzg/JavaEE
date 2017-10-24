@@ -9,11 +9,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.google.gson.Gson;
+
 /**
  * Servlet implementation class Prueba
  */
 @WebServlet(description = "Mi primer servlete para hacer pruebas", urlPatterns = { "/Prueba" })
-public class Prueba extends HttpServlet {
+public class Prueba extends HttpServlet 
+{
 	private static final long serialVersionUID = 1L;
        
     /**
@@ -29,11 +32,15 @@ public class Prueba extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 	{
-		String dato ;
+		String dato="";
+		dato="";
 		dato=request.getParameter("nombre");
-		PrintWriter printWriter = new PrintWriter(response.getWriter());
-		System.out.println(dato);
-		printWriter.println("YASTAS DE VUELTA CARNAL");
+		Persona persona=new Persona();
+		Gson gson=new Gson();
+		persona=gson.fromJson(dato, Persona.class);
+		PrintWriter printWriter=new PrintWriter(response.getWriter());
+		System.out.println(persona.getNombre());
+		printWriter.println(dato);
 	}
 
 }
